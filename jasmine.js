@@ -1,7 +1,7 @@
 defineModule(function(that) {
 
     that.on_moduleManager_modulesLoaded = function() {
-        loadJasmine();
+        /jasmine/.test(window.location.href) && loadJasmine();
     };
 
     that.filterEvents = function(data, cb) {

@@ -12,7 +12,7 @@ In any other module write the jasmine spec files as normal and then place the fo
         'specs/loadersSpec'  // the path to the local spec file within this module directory
     ];
 
-Here is an example spec file from the [loaders](https://github.com/scottburch/river-loaders) module.  See the [jasmine](http://pivotal.github.com/jasmine) documentation for more information.
+Here is an example spec file from the [loaders](https://github.com/scottburch/river-loaders) module.  See the [jasmine](https://jasmine.github.io/) documentation for more information.
 
     describe('loaders module', function() {
 
